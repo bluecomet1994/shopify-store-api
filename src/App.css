@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-card div:nth-child(2) {
+  transition: all .5s;
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.shop-card:hover div:nth-child(2) {
+  transform: translateX(70%);
+}
